@@ -14,6 +14,7 @@ document.body.addEventListener('click', function(event){
         const slike = document.querySelectorAll('img');
         for (let i = 0; i < slike.length; i++) {
             slike[i].classList.remove('active-image');
+            slike[i].classList.add('zoom');
             
     }
       
